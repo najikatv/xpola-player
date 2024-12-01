@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
+http://stream.mytvplus.net:7003/sport/ch2/adaptive.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
+http://stream.mytvplus.net:7005/sport/ch4/adaptive.m3u8
