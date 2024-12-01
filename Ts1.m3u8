@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
+http://go.teaib.tv:8080/najikatvvip/najikatv/5372
+#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
+http://go.teaib.tv:8080/najikatvvip/najikatv/5348
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+http://go.teaib.tv:8080/najikatvvip/najikatv/110243
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
+http://go.teaib.tv:8080/najikatvvip/najikatv/5359
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
+http://go.teaib.tv:8080/najikatvvip/najikatv/5372
