@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://jn222.sportvideodata.com/3045826356_gNmhTMwImMkFzMmRWL2U2N50iYlhDNtQ2MzIWL1E2YzIjN2gzL1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
+http-referrer=http://www.fawanews.sc/http://117.55.203.234/hls/epppQQQQQ.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
 https://jn222.sportvideodata.com/3045826356_gNmhTMwImMkFzMmRWL2U2N50iYlhDNtQ2MzIWL1E2YzIjN2gzL1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
@@ -16,4 +16,5 @@ https://jn222.sportvideodata.com/3045826356_gNmhTMwImMkFzMmRWL2U2N50iYlhDNtQ2MzI
 http://117.55.203.234/hls/epppQQQQQ.m3u8
 #EXTINF:-1, Najikatv2
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+
 http://117.55.203.234/hls/epppQQQQQ.m3u8
