@@ -1,11 +1,12 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://live.eighty-eight.tv:7443/bS1-1/index.fmp4.m3u8?token=eb7952ba55c5755b1f7e8a44fc589c2971b07077-13655eef39d13f380f786decd5f15512-1758517483-1758506683
+http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1131.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://live.eighty-eight.tv:7443/bS1-1/index.fmp4.m3u8?token=eb7952ba55c5755b1f7e8a44fc589c2971b07077-13655eef39d13f380f786decd5f15512-1758517483-1758506683
+http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1131.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://live.eighty-eight.tv:7443/bS1-1/index.fmp4.m3u8?token=eb7952ba55c5755b1f7e8a44fc589c2971b07077-13655eef39d13f380f786decd5f15512-1758517483-1758506683
+http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1131.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://live.eighty-eight.tv:7443/bS1-1/index.fmp4.m3u8?token=eb7952ba55c5755b1f7e8a44fc589c2971b07077-13655eef39d13f380f786decd5f15512-1758517483-1758506683
+http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1131.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://live.eighty-eight.tv:7443/bS1-1/index.fmp4.m3u8?token=eb7952ba55c5755b1f7e8a44fc589c2971b07077-13655eef39d13f380f786decd5f15512-1758517483-1758506683
+http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1131.m3u8
+
