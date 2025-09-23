@@ -11,5 +11,8 @@ https://shls-live-ak.akamaized.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index
 https://shls-live-ak.akamaized.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index_7.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=100000,RESOLUTION=256x144
 https://shls-live-ak.akamaized.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index_8.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=144x100
+https://shls-live-ak.akamaized.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index_5.m3u8
+
 
 
