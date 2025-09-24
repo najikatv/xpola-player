@@ -1,13 +1,14 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1131.m3u8
+https://s46.ipcamlive.com/streams/2etrbdmcllpxmdeou/stream.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-http://het114a.4rouwanda-shop.store/live/31009988005/index.m3u8
+https://s46.ipcamlive.com/streams/2etrbdmcllpxmdeou/stream.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-http://het114a.4rouwanda-shop.store/live/31009988005/index.m3u8
+https://s46.ipcamlive.com/streams/2etrbdmcllpxmdeou/stream.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-http://splus.smartres.net/live/65787/54353/44562.m3u8
+https://s46.ipcamlive.com/streams/2etrbdmcllpxmdeou/stream.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-http://splus.smartres.net/live/65787/54353/87827.m3u8
+https://s46.ipcamlive.com/streams/2etrbdmcllpxmdeou/stream.m3u8
+
 
 
