@@ -5,9 +5,10 @@ http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/499.m3u8
 http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/499.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=15,RESOLUTION=30×30
 http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/499.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=20,RESOLUTION=40x40
+#EXT-X-STREAM-INF:BANDWIDTH=5,RESOLUTION=10×40
 http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/505.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=0,RESOLUTION=50x50
+#EXT-X-STREAM-INF:BANDWIDTH=5,RESOLUTION=10×50
 http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/505.m3u8
+
 
 
