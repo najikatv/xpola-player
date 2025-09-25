@@ -1,1 +1,5 @@
 
+#EXTINF:-1 group-title="Tt", Tt
+#EXTVLCOPT:http-player-type=webplayer
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://205.237.104.148/hls/TIIINQQ.m3u8
