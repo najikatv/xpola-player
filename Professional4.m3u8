@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=10,RESOLUTION=10x10
-https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/ksaquranpublish/ksaquran_360p/hdntl=exp=1758929036~acl=%2fksaquranlive%2fksaquran.smil%2f*~data=hdntl~hmac=26390daf6d9f9ab67eaa5c4bdc9d2700a6674c745350467cd87c7cb95b85ebdd/chunks_dvr.m3u8
+https://ktvlive.online/stream/hls/ch3.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=20,RESOLUTION=20x20
-https://s34.radiolize.com/radio/8050/radio.mp3
+https://ktvlive.online/stream/hls/ch3.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=30,RESOLUTION=30x30
 https://s34.radiolize.com/radio/8050/radio.mp3
 #EXT-X-STREAM-INF:BANDWIDTH=40,RESOLUTION=40x40
@@ -11,8 +11,8 @@ https://s34.radiolize.com/radio/8050/radio.mp3
 https://s34.radiolize.com/radio/8050/radio.mp3
 #EXT-X-STREAM-INF:BANDWIDTH=60,RESOLUTION=60x60
 https://s34.radiolize.com/radio/8050/radio.mp3
-#EXT-X-STREAM-INF:BANDWIDTH=70,RESOLUTION=70x70
-https://live.kwikmotion.com/ksaquranlive/ksaquran.smil/ksaquranpublish/ksaquran_360p/hdntl=exp=1758929036~acl=%2fksaquranlive%2fksaquran.smil%2f*~data=hdntl~hmac=26390daf6d9f9ab67eaa5c4bdc9d2700a6674c745350467cd87c7cb95b85ebdd/chunks_dvr.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=70,RESOLUTION=70x80
+https://ktvlive.online/stream/hls/ch3.m3u8
 
 
 
