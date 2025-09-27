@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=10,RESOLUTION=10x10
-https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/ch1_1080.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=20,RESOLUTION=20x20
-https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/ch1_720.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=30,RESOLUTION=30x30
 https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=40,RESOLUTION=40x40
@@ -10,9 +10,10 @@ https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=50,RESOLUTION=50x50
 https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=60,RESOLUTION=60x60
-https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch1/ch1_240.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=70,RESOLUTION=70x70
 https://het115a.4rouwanda-shop.store/live/31009988005/index.m3u8
+
 
 
 
