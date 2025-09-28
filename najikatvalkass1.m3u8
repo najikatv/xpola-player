@@ -6,13 +6,14 @@ https://stream.veo.buzz:6084/sport/ch15/ch15_720.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=30,RESOLUTION=30x30
 https://stream.veo.buzz:6084/sport/ch15/ch15_360.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=40,RESOLUTION=40x40
-https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass5azq/master340.m3u8
+https://stream.veo.buzz:6084/sport/ch15/ch15_240.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=50,RESOLUTION=50x50
 https://stream.veo.buzz:6084/sport/ch15/ch15_240.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=60,RESOLUTION=60x60
 https://stream.veo.buzz:6084/sport/ch15/ch15_240.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=70,RESOLUTION=70x70
 https://stream.veo.buzz:6084/sport/ch15/ch15_240.m3u8
+
 
 
 
