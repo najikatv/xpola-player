@@ -1,24 +1,12 @@
 #EXTM3U
-
-# --- تعريف مجموعة المسارات الصوتية ---
-# المسار الأول: هو الصوت الأصلي المدمج مع الفيديو، وسيكون الخيار الافتراضي
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-tracks",NAME="الصوت الأصلي",DEFAULT=YES,AUTOSELECT=YES
-# المسار الثاني: هو الصوت البديل الذي تريد إضافته
-# !!! تنبيه: يجب استبدال الرابط الموجود في URI بالرابط الصحيح للملف الصوتي !!!
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-tracks",NAME="الصوت الثاني",DEFAULT=NO,AUTOSELECT=NO,URI=http://het110a.4rouwanda-shop.store/live/31009988005/index.m3u8"
-
-# --- ربط مجموعة الصوت بمسارات الفيديو ---
-# تم إضافة الخاصية AUDIO="audio-tracks" لكل مسار فيديو
-#EXT-X-STREAM-INF:BANDWIDTH=800,RESOLUTION=380x216
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Arabic Audio",DEFAULT=YES,AUTOSELECT=YES,URI="http://het110a.4rouwanda-shop.store/live/31009988005/index.m3u8?t=_UJAlR8PBtPODJEAnWLYIA&e=1759620937"
+#EXT-X-STREAM-INF:BANDWIDTH=800,RESOLUTION=380x216,AUDIO="audio"
 https://jn226.sportvideodata.com/3385670430_QYhJDNhBjNhFTYjZWL1kzN40yYhJGNtMTYxYTLkJjNlVzM5U2L1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=45,RESOLUTION=120x080
+#EXT-X-STREAM-INF:BANDWIDTH=45,RESOLUTION=120x080,AUDIO="audio"
 https://jn226.sportvideodata.com/3385670430_QYhJDNhBjNhFTYjZWL1kzN40yYhJGNtMTYxYTLkJjNlVzM5U2L1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=280x72
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=280x72,AUDIO="audio"
 https://jn226.sportvideodata.com/3385670430_QYhJDNhBjNhFTYjZWL1kzN40yYhJGNtMTYxYTLkJjNlVzM5U2L1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=54x80
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=54x80,AUDIO="audio"
 https://jn226.sportvideodata.com/3385670430_QYhJDNhBjNhFTYjZWL1kzN40yYhJGNtMTYxYTLkJjNlVzM5U2L1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=26x24
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=26x24,AUDIO="audio"
 https://jn226.sportvideodata.com/3385670430_QYhJDNhBjNhFTYjZWL1kzN40yYhJGNtMTYxYTLkJjNlVzM5U2L1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
-
-
-
