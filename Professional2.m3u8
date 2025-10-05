@@ -1,7 +1,19 @@
 #EXTM3U
-#EXT-X-VERSION:7
+#EXT-X-VERSION:3
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-ar",NAME="Arabic Audio",LANGUAGE="ar",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
+# --- تعريف مسار الصوت الخارجي ---
+# TYPE=AUDIO: يحدد أن هذا المسار هو للصوت.
+# GROUP-ID="audio_1": هذا هو المعرّف الفريد لمجموعة الصوت، سنستخدمه لربط الفيديو به.
+# NAME="Sound Track 1": اسم وصفي لمسار الصوت.
+# DEFAULT=YES: يجعله المسار الصوتي الافتراضي.
+# AUTOSELECT=YES: يتيح للمشغل تحديده تلقائيًا.
+# URI="": هنا تضع رابط ملف الصوت الكامل (رابط M3U8 الخاص بالصوت أو ملف .aac).
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_1",NAME="Sound Track 1",DEFAULT=YES,AUTOSELECT=YES,URI="https://example.com/path/to/your/audio.m3u8"
 
-#EXT-X-STREAM-INF:BANDWIDTH=800,RESOLUTION=480x240,AUDIO="audio-ar"
-https://stream.veo.buzz:6073/sport/ch2/ch2_240.m3u8
+# --- تعريف مسار الفيديو وربطه بالصوت ---
+# BANDWIDTH: حدد معدل البت (bitrate) الخاص بالفيديو بالبت في الثانية (bps). يجب تغييره إلى القيمة الفعلية للفيديو الخاص بك.
+# AUDIO="audio_1": هذا هو الجزء الأهم، حيث يتم ربط هذا الفيديو بمجموعة الصوت التي عرفناها سابقاً باستخدام نفس الـ GROUP-ID.
+# CODECS: (اختياري ولكن موصى به) حدد أكواد الفيديو والصوت.
+# أسفل هذا السطر، ضع رابط ملف الفيديو (M3U8 الخاص بالفيديو فقط).
+#EXT-X-STREAM-INF:BANDWIDTH=2560000,AUDIO="audio_1"
+https://example.com/path/to/your/video.m3u8
