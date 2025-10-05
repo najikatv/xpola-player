@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTM3U
 #EXT-X-START:TIME-OFFSET=3
-...
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
 
@@ -18,6 +16,7 @@ https://jn230.sportvideodata.com/596740539_4U3Mt5CdzlGb5FGbw9SO1ITbhVmc0N3Lx82Lt
 https://jn230.sportvideodata.com/596740539_4U3Mt5CdzlGb5FGbw9SO1ITbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/o9-v1.m3u8
 
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="صوت خارجي",DEFAULT=YES,AUTOSELECT=YES,URI="https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_1.m3u8"
+
 
 
 
