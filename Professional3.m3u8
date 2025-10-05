@@ -1,7 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="صوت خارجي",DEFAULT=YES,AUTOSELECT=YES,URI="https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/SPe0zQ3wv0vu9ksBYcWHAKyHRoy0nrg1qaonOTB2cO2fFN58Ghu35ffgOVB4PNIZM3GieT7GbzThaqBqUNWm7w/transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18yMjRwMzBfMTAiLCJIZWlnaHQiOjIyNCwiS2JwcyI6MzAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjQwMH0.7bJSUVkCCWY9mtayJTkJOzF7SBt0W-fOgmaXO9-OjnM/dynamic_delta.m3u8?type=live"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="صوت خارجي",DEFAULT=YES,AUTOSELECT=YES,URI="https://het117a.4rouwanda-shop.store/live/4798998070/index.m3u8"
 
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160,AUDIO="audio-external"
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
@@ -9,6 +9,7 @@ https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,AUDIO="audio-external"
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
+
 
 
 
