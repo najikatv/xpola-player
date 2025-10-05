@@ -14,6 +14,6 @@ https://jn230.sportvideodata.com/596740539_4U3Mt5CdzlGb5FGbw9SO1ITbhVmc0N3Lx82Lt
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
 https://jn230.sportvideodata.com/596740539_4U3Mt5CdzlGb5FGbw9SO1ITbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/o9-v1.m3u8
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-orig",NAME="الصوت الأصلي",DEFAULT=NO,AUTOSELECT=NO,URI="https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="صوت خارجي",DEFAULT=YES,AUTOSELECT=YES,URI="https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_1.m3u8"
+
 
