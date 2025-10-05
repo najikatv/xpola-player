@@ -1,8 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:7
-
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-ar",NAME="Arabic Audio",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv2/ch2/ch2_240.m3u8"
-
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=480x240,CODECS="avc1.4d401f,mp4a.40.2",AUDIO="audio-ar"
 https://jn230.sportvideodata.com/2817918574_ITM6ADOycTM2gTN/p2.m3u8
+
 
