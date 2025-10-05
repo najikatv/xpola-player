@@ -5,7 +5,7 @@
 #EXT-X-VERSION: 7
 
 # External Audio Track
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="External Audio",LANGUAGE="ar",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.veo.buzz:6072/sport/ch1/adaptive.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="External Audio",LANGUAGE="ar",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.veo.buzz:6072/sport/ch1/ch1_240.m3u8"
 
 # 4K UHD Stream
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160,CODECS="avc1.640032,mp4a.40.2",AUDIO="https://stream.veo.buzz:6072/sport/ch1/adaptive.m3u8"
@@ -18,5 +18,6 @@ https://jn223.sportvideodata.com/3285478728_MDN5kzM2cTN6AjOxgTO1cDN/o7-1.m3u8?si
 # HD Stream
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2",AUDIO="https://stream.veo.buzz:6072/sport/ch1/adaptive.m3u8l"
 https://jn223.sportvideodata.com/3285478728_MDN5kzM2cTN6AjOxgTO1cDN/o7-1.m3u8?sign=R0cHM6Ly9pbWdhcmVuYS1wcm9kLXYyLXVzLmFrYW1haXplZC5uZXQvaGxzL2xpdmUvMjExMDIyNy80NzU5ODEtNDQ3NzczL2hkbnRsPWV4cD0xNzU5NzIwMDkwfmFjbD0lMmYqfmlkPWI0YzI5ZTdjLWIxNWQtNDYyYi04NzhhLWVhYjBhZWY4YWMyNH5kYXRhPWhkbnRsfmhtYWM9Y2I2NThhNDhhOTNlMzQwZjBhNGU4NjZjMjZmZmNhZDE3MjJhNTI3NjFkODQ5ZTdlOWNlNzhiZGJiNTM4M2FiYy9wbGF5bGlzdF8zNjBwMjUubTN1OCR8JDAaH
+
 
 
