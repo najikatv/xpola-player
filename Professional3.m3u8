@@ -1,7 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="صوت خارجي",DEFAULT=YES,AUTOSELECT=YES,URI="http://het117a.4rouwanda-shop.store/live/4798998070/index.m3u8?t=bKTZLeDr9AweBovSbRpu3w&e=1759621967"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-external",NAME="صوت خارجي",DEFAULT=YES,AUTOSELECT=YES,URI="https://het117a.4rouwanda-shop.store/live/4798998070/index.m3u8"
 
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160,AUDIO="audio-external"
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
@@ -9,4 +9,5 @@ https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,AUDIO="audio-external"
 https://jn229.sportvideodata.com/3179498562_MTMyETO2YTN6AjO0gzN1cDN/o7-1.m3u8
+
 
