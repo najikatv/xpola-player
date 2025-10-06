@@ -1,21 +1,24 @@
 #EXTM3U
 #EXT-X-VERSION:7
 
-# تعريف مجموعة الصوت
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_1",NAME="Sound Track 1",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
+# مجموعة الصوت (بث مباشر)
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_live",NAME="الصوت المباشر",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
 
-# جودة 1080p
-#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080,AUDIO="audio_1"
+# مجموعة الصوت (تايم شفت)
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_timeshift",NAME="الصوت المؤجل",DEFAULT=NO,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
+
+# جودة 1080p (بث مباشر)
+#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080,AUDIO="audio_live",NAME="بث مباشر 1080p"
 https://stream.veo.buzz:6072/sport/ch1/ch1_1080.m3u8
 
-# جودة 720p
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,AUDIO="audio_1"
+# جودة 720p (بث مباشر)
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,AUDIO="audio_live",NAME="بث مباشر 720p"
 https://stream.veo.buzz:6072/sport/ch1/ch1_720.m3u8
 
-# جودة 480p
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480,AUDIO="audio_1"
+# جودة 480p (تايم شفت)
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480,AUDIO="audio_timeshift",NAME="تايم شفت 480p"
 https://stream.veo.buzz:6072/sport/ch1/ch1_360.m3u8
 
-# جودة 240p
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240,AUDIO="audio_1"
+# جودة 240p (تايم شفت)
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240,AUDIO="audio_timeshift",NAME="تايم شفت 240p"
 https://stream.veo.buzz:6072/sport/ch1/ch1_240.m3u8
