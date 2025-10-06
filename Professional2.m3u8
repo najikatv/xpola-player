@@ -2,10 +2,10 @@
 #EXT-X-VERSION:7
 
 # مجموعة الصوت (بث مباشر)
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_live",NAME="الصوت المباشر",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_live",NAME="الصوت المباشر",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3010/supertv/sport/stv10/ch10/ch10_240.m3u8"
 
 # مجموعة الصوت (تايم شفت)
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_timeshift",NAME="الصوت المؤجل",DEFAULT=NO,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_timeshift",NAME="الصوت المؤجل",DEFAULT=NO,AUTOSELECT=YES,URI="https://stream.supertv.gg:3010/supertv/sport/stv10/ch10/ch10_240.m3u8"
 
 # جودة 1080p (بث مباشر)
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080,AUDIO="audio_live",NAME="بث مباشر 1080p"
@@ -22,3 +22,4 @@ https://stream.veo.buzz:6072/sport/ch1/ch1_360.m3u8
 # جودة 240p (تايم شفت)
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240,AUDIO="audio_timeshift",NAME="تايم شفت 240p"
 https://stream.veo.buzz:6072/sport/ch1/ch1_240.m3u8
+
