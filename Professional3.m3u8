@@ -9,17 +9,5 @@
 
 # جودات الفيديو مع ربط مجموعة الصوت بشكل صحيح
 
-# 4K UHD Stream
-#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160,CODECS="avc1.640032,mp4a.40.2",AUDIO="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
-https://stream.supertv.gg:3010/supertv/sport/stv10/ch10/ch10_240.m3u8
-
-# Full HD Stream
-#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",AUDIO="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
-https://stream.supertv.gg:3010/supertv/sport/stv10/ch10/ch10_240.m3u8
-
-# HD Stream
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2",AUDIO="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
-https://stream.supertv.gg:3010/supertv/sport/stv10/ch10/ch10_240.m3u8
-
 
 
