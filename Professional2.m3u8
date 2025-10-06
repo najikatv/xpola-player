@@ -1,17 +1,14 @@
 #EXTM3U
 #EXT-X-VERSION:7
 .
-# URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8(.aac)":  https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8(https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8.aac).
+# URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8":  https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8(https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8.aac).
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_1",NAME="Sound Track 1",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
-
-# --- تعريف مسار الفيديو وربطه بالصوت ---
-# BANDWIDTH: حدد معدل البت (bitrate) الخاص بالفيديو بالبت في الثانية (bps). يجب تغييره إلى القيمة الفعلية للفيديو الخاص بك.
-# AUDIO="audio_1": هذا هو الجزء الأهم، حيث يتم ربط هذا الفيديو بمجموعة الصوت التي عرفناها سابقاً باستخدام نفس الـ GROUP-ID.
-# CODECS: (اختياري ولكن موصى به) حدد أكواد الفيديو والصوت.
-# أسفل هذا السطر، ضع رابط ملف الفيديو (M3U8 الخاص بالفيديو فقط).
-#EXT-X-STREAM-INF:BANDWIDTH=800000,AUDIO="audio_1"
-https://jn188.sportvideodata.com/671546853_czMyETO2YTN6AjO1kzN1cDN/o7-1.m3u8?sign=R0cHM6Ly9pbWdhcmVuYS1wcm9kLXYyLWV1LmFrYW1haXplZC5uZXQvaGxzL2xpdmUvMjA5NjIxMi80NzU3OTUtNDQ3OTMwL2hkbnRsPWV4cD0xNzU5Nzk5NDQyfmFjbD0lMmYqfmlkPWI5ZGI0MGQxLTQ0NTMtNDQxYS1hYzVhLTNkMTM5NzE1MGRjNn5kYXRhPWhkbnRsfmhtYWM9ZmU2YTlkNGM5ZTI4MDljOTE4Y2M4ZGFkNDM3ODhkMTQ3OWI5MjhhN2Q0NDBmYzUwNjE1OWMyZDhkZDQ0YTE2Yi9wbGF5bGlzdF8zNjBwMjUubTN1OCR8JDAaH
-
-
-
+#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
+https://stream.veo.buzz:6072/sport/ch1/ch1_1080.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://stream.veo.buzz:6072/sport/ch1/ch1_720.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
+https://stream.veo.buzz:6072/sport/ch1/ch1_360.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
+https://stream.veo.buzz:6072/sport/ch1/ch1_240.m3u8
 
