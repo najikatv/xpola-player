@@ -6,3 +6,5 @@ https://stream.veo.buzz:6072/sport/ch1/ch1_720.m3u8
 https://stream.veo.buzz:6072/sport/ch1/ch1_360.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
 https://stream.veo.buzz:6072/sport/ch1/ch1_240.m3u8
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8",NAME="Arabic External Audio",LANGUAGE="ar",DEFAULT=YES,AUTOSELECT=YES,URI="https://stream.supertv.gg:3003/supertv/sport/stv3/ch3/ch3_240.m3u8"
