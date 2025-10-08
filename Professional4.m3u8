@@ -1,5 +1,11 @@
 #EXTM3U
 #EXT-X-VERSION:7
+var video = document.getElementById('video');
+var hls = new Hls({
+  autoLevelEnabled: true // يختار الجودة الأنسب تلقائياً
+});
+hls.loadSource('Professional4.m3u8');
+hls.attachMedia(video);
 #EXT-X-STREAM-INF:BANDWIDTH=1,RESOLUTION=1x1
 http://splus.smartres.net/live/65787/54353/87826.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2,RESOLUTION=2x1
@@ -30,3 +36,4 @@ EXT-X-STREAM-INF:BANDWIDTH=5,RESOLUTION=13x1
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_360.m3u8
 EXT-X-STREAM-INF:BANDWIDTH=5,RESOLUTION=14x1
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_720.m3u8
+
