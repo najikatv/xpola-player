@@ -1,14 +1,16 @@
 #EXTM3U
 #EXT-X-VERSION:7
 #EXT-X-STREAM-INF:BANDWIDTH=50000,RESOLUTION=144x80,NAME="144p - منخفض جداً"
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_144.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_240.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=120000,RESOLUTION=240x136,NAME="240p - منخفض"
 http://stream.mytvplus.net:7003/sport/ch2/ch2_240.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=80000,RESOLUTION=320x180
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_240.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=400000,RESOLUTION=360x202,NAME="360p - متوسط"
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_360.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=720x404,NAME="720p - جيد"
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch12/ch2_720.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=80000,RESOLUTION=320x180
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_720.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3000000,RESOLUTION=1080x720,NAME="1080p - عالي"
 https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_1080.m3u8
@@ -20,5 +22,7 @@ https://het120a.4rouwanda-shop.store/live/4798998070/index.m3u8
 https://het104a.4rouwanda-shop.store/live/69854211/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=120000,RESOLUTION=240x136,NAME="240p - مصدر إضافي"
 http://splus.smartres.net/live/65787/54353/87826.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=80000,RESOLUTION=320x18
 http://splus.smartres.net/live/65787/54353/44563.m3u8
+
 
