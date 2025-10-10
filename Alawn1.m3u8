@@ -7,11 +7,9 @@ https://aa.ukurvf.shop/hls/HYHYHY.m3u8
 #EXT-X-REFERRER:http://www.fawanews.sc/
 #EXTINF:4.720,
 https://aa.ukurvf.shop/hls/HYHYHY-2831.ts
+#EXTINF:4.800,
 https://aa.ukurvf.shop/hls/HYHYHY-2832.ts
+#EXTINF:4.800,
 https://aa.ukurvf.shop/hls/HYHYHY-2833.ts
-HYHYHY-2831.ts
-#EXTINF:4.800,
-HYHYHY-2832.ts
-#EXTINF:4.800,
-HYHYHY-2833.ts
+
 
