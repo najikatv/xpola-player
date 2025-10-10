@@ -1,8 +1,7 @@
 
 #EXTM3U
-#EXT-X-VERSION:3
+#EXT-X-VERSION:7
 #EXT-X-START:TIME-OFFSET=0.01
-#EXT-X-MEDIA-SEQUENCE:41763
 #EXT-X-TARGETDURATION:4
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
 https://het113a.4rouwanda-shop.store/live/69854211/index.m3u8
@@ -22,5 +21,6 @@ https://het113a.4rouwanda-shop.store/live/69854211/index.m3u8
 https://het113a.4rouwanda-shop.store/live/69854211/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
 https://het113a.4rouwanda-shop.store/live/69854211/index.m3u8
+
 
 
