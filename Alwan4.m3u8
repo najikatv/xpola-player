@@ -1,4 +1,8 @@
 #EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-START:TIME-OFFSET=0.01
+#EXT-X-MEDIA-SEQUENCE:41763
+#EXT-X-TARGETDURATION:4
 #EXT-X-STREAM-INF:BANDWIDTH=1,RESOLUTION=2x1
 http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128848.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2,RESOLUTION=1x2
@@ -9,5 +13,6 @@ http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128848.m3u8
 http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128848.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=5,RESOLUTION=1x4
 http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128848.m3u8
+
 
 
