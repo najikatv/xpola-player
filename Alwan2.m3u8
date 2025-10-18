@@ -1,14 +1,15 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=10,RESOLUTION=100x100
-http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/500.m3u8
+https://id.remotv.xyz/?ch=al1
 #EXT-X-STREAM-INF:BANDWIDTH=20,RESOLUTION=100x50
-http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/500.m3u8
+https://id.remotv.xyz/?ch=al1
 #EXT-X-STREAM-INF:BANDWIDTH=30,RESOLUTION=100x99
-http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/506.m3u8
+https://id.remotv.xyz/?ch=al1
 #EXT-X-STREAM-INF:BANDWIDTH=40,RESOLUTION=100x80
-http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/506.m3u8
+https://id.remotv.xyz/?ch=al1
 #EXT-X-STREAM-INF:BANDWIDTH=50,RESOLUTION=100x70
-http://cyberfamily.sytes.net/live/Najikatv005/Najikatv/506.m3u8
+https://id.remotv.xyz/?ch=al1
+
 
 
 
