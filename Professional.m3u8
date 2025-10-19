@@ -1,42 +1,11 @@
 #EXTM3U
-#EXT-X-VERSION:7
-
-# جودة منخفضة جداً - مناسبة للنت الضعيف
-#EXT-X-STREAM-INF:BANDWIDTH=80000,RESOLUTION=320x180
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_240.m3u8
-
-# جودة منخفضة
-#EXT-X-STREAM-INF:BANDWIDTH=150000,RESOLUTION=426x240
-http://live.eighty-eight.tv:8880/live/Najikatv/Najikatv/1140.m3u8
-
-# جودة متوسطة
-#EXT-X-STREAM-INF:BANDWIDTH=400000,RESOLUTION=640x360
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_360.m3u8
-
-# جودة HD
-#EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=1280x720
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch12/ch2_720.m3u8
-
-# جودة FHD
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1920x1080
-https://stream.supertv.gg:3001/supertv/sport/stv1/ch2/ch2_1080.m3u8
-
-# روابط إضافية (قد تكون أقل استقراراً أو مختلفة المصدر)
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=400x300
-http://splus.smartres.net/live/65787/54353/87826.m3u8
-
-#EXT-X-STREAM-INF:BANDWIDTH=300000,RESOLUTION=480x360
-http://splus.smartres.net/live/65787/54353/44563.m3u8
-
-#EXT-X-STREAM-INF:BANDWIDTH=350000,RESOLUTION=540x360
-http://1789-181.123091763.it.com/live/618157_.m3u8
-
-#EXT-X-STREAM-INF:BANDWIDTH=400000,RESOLUTION=640x360
-https://het120a.4rouwanda-shop.store/live/4798998070/index.m3u8
-
-#EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=960x540
-http://het113a.4rouwanda-shop.store/live/69854211/index.m3u8
-
-#EXT-X-STREAM-INF:BANDWIDTH=700000,RESOLUTION=1280x720
-https://het104a.4rouwanda-shop.store/live/69854211/index.m3u8
-
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/Kv7ZCtT7M3wi0rhxixu-X1XQTra1srxAVEdIzgew6w1KOfLhdLT8leL3BNPbK0A69YA-n9TXLIqn6zlHvVMhog/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ183MjBwMzBfMTAiLCJIZWlnaHQiOjcyMCwiS2JwcyI6Mjc1MCwiV2lkdGgiOjEyODB9.ldktM4fCFRfkP4ZEBfZPKtlAUNAcTPkoz994YJAzWpE/dynamic_highlatency.m3u8?type=live
+#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/Kv7ZCtT7M3wi0rhxixu-X1XQTra1srxAVEdIzgew6w1KOfLhdLT8leL3BNPbK0A69YA-n9TXLIqn6zlHvVMhog/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ183MjBwMzBfMTAiLCJIZWlnaHQiOjcyMCwiS2JwcyI6Mjc1MCwiV2lkdGgiOjEyODB9.ldktM4fCFRfkP4ZEBfZPKtlAUNAcTPkoz994YJAzWpE/dynamic_highlatency.m3u8?type=live
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/Kv7ZCtT7M3wi0rhxixu-X1XQTra1srxAVEdIzgew6w1KOfLhdLT8leL3BNPbK0A69YA-n9TXLIqn6zlHvVMhog/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?type=live
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/Kv7ZCtT7M3wi0rhxixu-X1XQTra1srxAVEdIzgew6w1KOfLhdLT8leL3BNPbK0A69YA-n9TXLIqn6zlHvVMhog/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/Kv7ZCtT7M3wi0rhxixu-X1XQTra1srxAVEdIzgew6w1KOfLhdLT8leL3BNPbK0A69YA-n9TXLIqn6zlHvVMhog/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18yMjRwMzBfMTAiLCJIZWlnaHQiOjIyNCwiS2JwcyI6MzAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjQwMH0.7bJSUVkCCWY9mtayJTkJOzF7SBt0W-fOgmaXO9-OjnM/dynamic_highlatency.m3u8?type=live
