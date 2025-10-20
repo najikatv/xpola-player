@@ -1,14 +1,15 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-http://go.teaib.tv:8080/live/najikatvvip/najikatv/5373.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/_kMY7zfX00rqEWN_Cf1eVo_7vbzkylJONl0u0IavahC0p7_zaEXdNjiVAq9i4RGDS72hxaWmw2Cy3Eih5Kaylw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-http://go.teaib.tv:8080/live/najikatvvip/najikatv/5373.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/_kMY7zfX00rqEWN_Cf1eVo_7vbzkylJONl0u0IavahC0p7_zaEXdNjiVAq9i4RGDS72hxaWmw2Cy3Eih5Kaylw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-http://go.teaib.tv:8080/live/najikatvvip/najikatv/5373.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/_kMY7zfX00rqEWN_Cf1eVo_7vbzkylJONl0u0IavahC0p7_zaEXdNjiVAq9i4RGDS72hxaWmw2Cy3Eih5Kaylw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-http://go.teaib.tv:8080/live/najikatvvip/najikatv/5373.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/_kMY7zfX00rqEWN_Cf1eVo_7vbzkylJONl0u0IavahC0p7_zaEXdNjiVAq9i4RGDS72hxaWmw2Cy3Eih5Kaylw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-http://go.teaib.tv:8080/live/najikatvvip/najikatv/5373.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/_kMY7zfX00rqEWN_Cf1eVo_7vbzkylJONl0u0IavahC0p7_zaEXdNjiVAq9i4RGDS72hxaWmw2Cy3Eih5Kaylw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
+
 
 
 
