@@ -1,11 +1,9 @@
 #EXTM3U
-#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/i632E-Uyy1k3Dgv7yzF3zZgkpQLJD1BZmm2cAQ8PTPkmMNBptcr3wblq1MuKjQZH4jxUtI9VCMRaenrcxEinMg/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/i632E-Uyy1k3Dgv7yzF3zZgkpQLJD1BZmm2cAQ8PTPkmMNBptcr3wblq1MuKjQZH4jxUtI9VCMRaenrcxEinMg/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_highlatency.m3u8?type=live
+http://splus.smartres.net/live/65787/54353/87827.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/i632E-Uyy1k3Dgv7yzF3zZgkpQLJD1BZmm2cAQ8PTPkmMNBptcr3wblq1MuKjQZH4jxUtI9VCMRaenrcxEinMg/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ183MjBwMzBfMTAiLCJIZWlnaHQiOjcyMCwiS2JwcyI6Mjc1MCwiV2lkdGgiOjEyODB9.ldktM4fCFRfkP4ZEBfZPKtlAUNAcTPkoz994YJAzWpE/dynamic_highlatency.m3u8?type=live
+http://1789-181.123091763.it.com/live/194432_.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/i632E-Uyy1k3Dgv7yzF3zZgkpQLJD1BZmm2cAQ8PTPkmMNBptcr3wblq1MuKjQZH4jxUtI9VCMRaenrcxEinMg/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?type=live
+http://1789-181.123091763.it.com/live/194432_.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/i632E-Uyy1k3Dgv7yzF3zZgkpQLJD1BZmm2cAQ8PTPkmMNBptcr3wblq1MuKjQZH4jxUtI9VCMRaenrcxEinMg/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
+http://splus.smartres.net/live/65787/54353/87827.m3u8
