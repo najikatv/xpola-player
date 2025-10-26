@@ -1,3 +1,4 @@
 #EXTM3U
+#EXT-X-SESSION-DATA:DATA-ID="REFERER",VALUE="https://www.yallashootlivetv.com/"
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
 https://ac.yallaliveshoot.info/ad1/index.m3u8
