@@ -1,16 +1,3 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=10,RESOLUTION=100x100
-https://live3.karwan.tv/4-sport/index.mpd?token=926e0a232240699c6deee67f28a594a508f5a4b1-91537ff4ab26d61dedfde9f95450786b-1761617057-1761606257&remote=no_check_ip
-#EXT-X-STREAM-INF:BANDWIDTH=20,RESOLUTION=100x50
-live3.karwan.tv/4-sport/index.mpd?token=926e0a232240699c6deee67f28a594a508f5a4b1-91537ff4ab26d61dedfde9f95450786b-1761617057-1761606257&remote=no_check_ip
-#EXT-X-STREAM-INF:BANDWIDTH=30,RESOLUTION=100x99
-live3.karwan.tv/4-sport/index.mpd?token=926e0a232240699c6deee67f28a594a508f5a4b1-91537ff4ab26d61dedfde9f95450786b-1761617057-1761606257&remote=no_check_ip
-#EXT-X-STREAM-INF:BANDWIDTH=40,RESOLUTION=100x80
-live3.karwan.tv/4-sport/index.mpd?token=926e0a232240699c6deee67f28a594a508f5a4b1-91537ff4ab26d61dedfde9f95450786b-1761617057-1761606257&remote=no_check_ip
-#EXT-X-STREAM-INF:BANDWIDTH=50,RESOLUTION=100x70
-live3.karwan.tv/4-sport/index.mpd?token=926e0a232240699c6deee67f28a594a508f5a4b1-91537ff4ab26d61dedfde9f95450786b-1761617057-1761606257&remote=no_check_ip
-
-
-
-
-
+https://karwan.tv/live/duhok-tv-sport-1.php
