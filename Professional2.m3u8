@@ -1,15 +1,1 @@
-#EXTM3U
-#EXT-X-MEDIA-SEQUENCE:32198
-#EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:6
-#EXT-X-KEY:METHOD=AES-128,URI="https://top2.newkso.ru/wmsxx.php?test=true&name=aflam108&number=1",IV=0x30303030303030303030303068f2ef87,KEYFORMAT="identity"
-#EXT-X-PROGRAM-DATE-TIME:2025-10-29T01:49:48.524+00:00
-#EXTINF:6,
-https://top1new.newkso.ru/top1/aflam108/mono.m3u8
-#EXTINF:6,
-https://top1new.newkso.ru/top1/aflam108/mono.m3u8
-#EXTINF:6,
-https://top1new.newkso.ru/top1/aflam108/mono.m3u8
-#EXTINF:6,
-https://top1new.newkso.ru/top1/aflam108/mono.m3u8
 
