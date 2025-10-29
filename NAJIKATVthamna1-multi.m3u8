@@ -9,12 +9,13 @@ https://stream.veo.buzz:6081/sport/ch11/ch11_720.m3u8
 https://stream.veo.buzz:6081/sport/ch11/ch11_360.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
 https://stream.veo.buzz:6081/sport/ch11/ch11_240.m3u8
-سيرفر
+# The following Periscope/Fastly links in the original file were truncated ("[...]").
+# If you want them preserved, provide full URLs; otherwise keep them commented out or remove.
 #EXT-X-STREAM-INF:BANDWIDTH=450000,RESOLUTION=192x108
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ183MjBwMzBfMTAiLCJIZWlnaHQiOjcyMCwiS2JwcyI6Mjc1MCwiV2lkdGgiOjEyODB9.ldktM4fCFRfkP4ZEBfZPKtlAUNAcTPkoz994YJAzWpE/dynamic_highlatency.m3u8?type=live
+#https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-...
 #EXT-X-STREAM-INF:BANDWIDTH=250000,RESOLUTION=128x72
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?type=live
+#https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-...
 #EXT-X-STREAM-INF:BANDWIDTH=80000,RESOLUTION=85x48
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
+#https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-...
 #EXT-X-STREAM-INF:BANDWIDTH=20000,RESOLUTION=42x24
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18yMjRwMzBfMTAiLCJIZWlnaHQiOjIyNCwiS2JwcyI6MzAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjQwMH0.7bJSUVkCCWY9mtayJTkJOzF7SBt0W-fOgmaXO9-OjnM/dynamic_highlatency.m3u8?type=live
+#https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/4iEOOL61lG8oyeyFIMmfAtnofqbzBN4p6AJWBXIK72sKgHdR1n5We9qXLW3sEGyG0YtPFgAnIIopRSdV5U_jQw/transcode/eu-central-1/periscope-replay-direct-...
