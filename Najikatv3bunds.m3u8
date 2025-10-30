@@ -1,0 +1,3 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
+https://stream.supertv.gg:3025/supertv/enter/stv5/ch5/ch5_720.m3u8
