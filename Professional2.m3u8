@@ -1,13 +1,3 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/stream_01/index.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/stream_02/index.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/stream_03/index.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/stream_05/index.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://vo-live.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/stream_04/index.m3u8
-
-
+https://jn260.sportvideodata.com/1387013071_gMlRjNwkTOjJWOhFTLkljYh1iMmJGNtcDO1QTLxIGMmVGN3UzL1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
