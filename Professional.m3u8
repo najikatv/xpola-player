@@ -1,11 +1,12 @@
 #EXTM3U
 #EXT-X-DYNAMICALLY-GENERATED
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://stream.supertv.gg:3002/supertv/sport/stv2/ch2/ch2_1080.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_1080.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://stream.supertv.gg:3002/supertv/sport/stv2/ch2/ch2_720.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_720.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://stream.supertv.gg:3002/supertv/sport/stv2/ch2/ch2_360.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_360.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://stream.supertv.gg:3002/supertv/sport/stv2/ch2/ch2_240.m3u8
+https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_240.m3u8
+
 
