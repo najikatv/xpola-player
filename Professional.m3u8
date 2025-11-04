@@ -1,12 +1,4 @@
 #EXTM3U
 #EXT-X-DYNAMICALLY-GENERATED
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_1080.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_720.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_360.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://stream.supertv.gg:3001/supertv/sport/stv2/ch1/ch1_240.m3u8
-
-
+https://prod-fastly-eu-west-3.video.pscp.tv/Transcoding/v1/hls/DcmBGMEjT_6tiJA5_g5BLO224vUjI3ODdyrZ_UefTPfeb4rUebZZykoQprEAen7-MOL9iDPgv6ssuqU3uzriww/non_transcode/eu-west-3/periscope-replay-direct-prod-eu-west-3-public/master_dynamic_lowlatency.m3u8?type=live
