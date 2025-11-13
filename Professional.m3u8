@@ -1,4 +1,11 @@
 #EXTM3U
-#EXT-X-DYNAMICALLY-GENERATED
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
+https://liveeu-gcp.alkassdigital.net/alkass5-p/mux_video_1080p_ts/index-1.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/BJwXL5RIwXUPaVRb-J6aHX4H8YGsyQ4iTDW9y215qKSPlTlzsTOsE3CeieQJ7Dy69lVSTNt5-CKDX7WAzJ5yjA/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18yMjRwMzBfMTAiLCJIZWlnaHQiOjIyNCwiS2JwcyI6MzAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjQwMH0.7bJSUVkCCWY9mtayJTkJOzF7SBt0W-fOgmaXO9-OjnM/dynamic_highlatency.m3u8?type=live
+https://liveeu-gcp.alkassdigital.net/alkass5-p/mux_video_720p_ts/index-1.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://liveeu-gcp.alkassdigital.net/alkass5-p/mux_video_480p_ts/index-1.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
+https://liveeu-gcp.alkassdigital.net/alkass5-p/mux_video_360p_ts/index-1.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
+https://liveeu-gcp.alkassdigital.net/alkass5-p/mux_video_240p_ts/index-1.m3u8
