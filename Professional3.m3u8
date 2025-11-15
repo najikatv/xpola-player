@@ -1,11 +1,3 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://stream.veo.buzz:6083/sport/ch10/ch10_720.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://stream.veo.buzz:6083/sport/ch10/ch10_720.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://stream.veo.buzz:6083/sport/ch10/ch10_720.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://stream.veo.buzz:6083/sport/ch10/ch10_360.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://stream.veo.buzz:6083/sport/ch10/ch10_240.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/qwFVPwdkfF53l4SeQ6Sw6GIDoGsAnQ4zejYKrQxlUuNemmItfTj8kvFVNBTB3UxI8INgBLub3sRuBvb22Qus-w/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
