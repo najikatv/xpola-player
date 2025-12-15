@@ -1,3 +1,4 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://jn253.sportvideodata.com/2069061833_gTdz0mL0NXaslXYsB3L3UTbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/p9.m3u8
+https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/jhMIcf2-mw6QlmN_4ScsVV_itTOoDnDvLqifXAxZ7KG_ZP_fEDilnqgr69FHr75KAMiNVecTyBSnjGiSF37tNg/transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18zMjBwMzBfMTAiLCJIZWlnaHQiOjMyMCwiS2JwcyI6NjAwLCJUcmFuc2NvZGVBdWRpbyI6dHJ1ZSwiV2lkdGgiOjU2OH0.es_XpNv3J12hFXU4WrCwmH28GmToYAPDPdT_EjerHCU/dynamic_highlatency.m3u8?type=live
+
