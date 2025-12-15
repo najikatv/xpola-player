@@ -1,12 +1,3 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/a01XKxpo-Q36OMnFRdLag_xzq6X39QtOhOPSAjp2eGpGt8q2RsXpbTRwI07SkF8r6kVO5NXKb0K2e0qQz5MGOw/non_transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/master_dynamic_highlatency.m3u8?type=live
-#EXT-X-STREAM-INF:BANDWIDTH=4500000,RESOLUTION=1920x1080
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/a01XKxpo-Q36OMnFRdLag_xzq6X39QtOhOPSAjp2eGpGt8q2RsXpbTRwI07SkF8r6kVO5NXKb0K2e0qQz5MGOw/non_transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/master_dynamic_highlatency.m3u8?type=live
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/a01XKxpo-Q36OMnFRdLag_xzq6X39QtOhOPSAjp2eGpGt8q2RsXpbTRwI07SkF8r6kVO5NXKb0K2e0qQz5MGOw/non_transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/master_dynamic_highlatency.m3u8?type=live
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/a01XKxpo-Q36OMnFRdLag_xzq6X39QtOhOPSAjp2eGpGt8q2RsXpbTRwI07SkF8r6kVO5NXKb0K2e0qQz5MGOw/non_transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/master_dynamic_highlatency.m3u8?type=live
-#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://prod-fastly-eu-central-1.video.pscp.tv/Transcoding/v1/hls/a01XKxpo-Q36OMnFRdLag_xzq6X39QtOhOPSAjp2eGpGt8q2RsXpbTRwI07SkF8r6kVO5NXKb0K2e0qQz5MGOw/non_transcode/eu-central-1/periscope-replay-direct-prod-eu-central-1-public/master_dynamic_highlatency.m3u8?type=live
-
+https://jn267.sportvideodata.com/3708943356_QMycTN0IGZwkjZxEWL3czMh1iMwQDNtY2NkJTL2UjY5QzNyAzL1JnLpBXYzRncvB3cu8WZklmd/output-0.m3u8
