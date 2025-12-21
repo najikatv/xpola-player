@@ -1,6 +1,7 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-http://het108b.ycn-redirect.com/live/79247621/index.m3u8
+https://cdn-js-mejarserver.aka-akamaized.net/max1-480p/tracks-v1a1/mono.m3u8?remote=37.238.221.24&token=5fb6a418c90706d275d29ba755a17363a64e2cb9-ec42fb866e56efeee1e36d8d467272ea-1766358726-1766358396
+
 
 
 
