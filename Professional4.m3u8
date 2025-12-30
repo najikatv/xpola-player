@@ -1,6 +1,7 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=3840x2160
-http://het102a.ycn-redirect.com/live/770001000/index.m3u8
+https://cast-x.com/token.php?id=fjr_1_720p&type=hls&h=https%3A%2F%2Fcdn-js-mejarserver.aka-akamaized.net&ts=1767132911&sig=b900e1d7a1e1e22c7c50b3a29ba5e1fa0436edc7e64ac9692e9cd2b1ef247070
+
 
 
 
