@@ -1,8 +1,9 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
-https://liveeu-gcp.alkassdigital.net/alkass1-p/20251215T120704Z/mux_video_480p_fmp4/index-1.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass1-p/20260219T144449Z/mux_video_720p_ts/index-1.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480
-https://liveeu-gcp.alkassdigital.net/alkass1-p/20251215T120704Z/mux_video_360p_fmp4/index-1.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass1-p/20260219T144449Z/mux_video_360p_ts/index-1.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=426x240
-https://liveeu-gcp.alkassdigital.net/alkass1-p/20251215T120704Z/mux_video_240p_fmp4/index-1.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass1-p/20260219T144449Z/mux_video_240p_ts/index-1.m3u8
+
 
