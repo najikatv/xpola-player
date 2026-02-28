@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPOLA Player - Stream Redirector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin: 15px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #764ba2;
+        }
+        .url-display {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 5px;
+            word-break: break-all;
+            display: none;
+        }
+        .url-display.show {
+            display: block;
+        }
+        .url-display a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .url-display a:hover {
+            text-decoration: underline;
+        }
+        .copy-btn {
+            background: #28a745;
+            padding: 8px 15px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .copy-btn:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 XPOLA Player</h1>
+        <p>اختر الملف والفرع للحصول على الرابط المباشر</p>
+        
+        <div class="form-group">
+            <label for="file">ملف البث (Stream File):</label>
+            <input type="text" id="file" placeholder="مثال: DZZZEQQQ" value="DZZZEQQQ">
+        </div>
+        
+        <div class="form-group">
+            <label for="ref">الفرع (Branch):</label>
+            <select id="ref">
+                <option value="main" selected>main (الرئيسي)</option>
+                <option value="dev">dev (التطوير)</option>
+                <option value="production">production (الإنتاج)</option>
+            </select>
+        </div>
+        
+        <button onclick="generateURL()">إنشاء الرابط</button>
+        
+        <div class="url-display" id="urlDisplay">
+            <strong>الرابط المباشر:</strong><br>
+            <a id="generatedURL" href="#" target="_blank"></a>
+            <br>
+            <button class="copy-btn" onclick="copyToClipboard()">📋 نسخ الرابط</button>
+        </div>
+    </div>
+
+    <script>
+        function generateURL() {
+            const file = document.getElementById('file').value;
+            const ref = document.getElementById('ref').value;
+            
+            if (!file) {
+                alert('من فضلك أدخل اسم الملف');
+                return;
+            }
+            
+            const url = `https://raw.githubusercontent.com/najikatv/xpola-player/${ref}/streams/${file}.m3u8`;
+            
+            const urlDisplay = document.getElementById('urlDisplay');
+            const generatedURL = document.getElementById('generatedURL');
+            
+            generatedURL.href = url;
+            generatedURL.textContent = url;
+            urlDisplay.classList.add('show');
+        }
+        
+        function copyToClipboard() {
+            const url = document.getElementById('generatedURL').textContent;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('تم نسخ الرابط بنجاح! ✅');
+            }).catch(() => {
+                alert('فشل النسخ');
+            });
+        }
+        
+        // Generate URL when enter is pressed
+        document.getElementById('file').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') generateURL();
+        });
+    </script>
+</body>
+</html>
