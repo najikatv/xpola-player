@@ -1,2 +1,4 @@
 #EXTINF:-1 group-title="Stream", DZZZEQQQ
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
 http://195.178.110.37/hls/DZZZEQQQ.m3u8
