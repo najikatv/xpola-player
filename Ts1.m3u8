@@ -1,9 +1,8 @@
-
 #EXTINF:-1 group-title="Tt", Tt
 #EXTVLCOPT:http-player-type=webplayer
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://205.237.104.148/hls/TIIINQQ.m3u8
+https://raw.githubusercontent.com/najikatv/xpola-player/main/streams/DZZZEQQQ.m3u8
 #EXTINF:-1 group-title="Ty", T
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc/
-http://205.237.104.148/hls/TIIINQQ.m3u8
+https://raw.githubusercontent.com/najikatv/xpola-player/main/streams/DZZZEQQQ.m3u8
