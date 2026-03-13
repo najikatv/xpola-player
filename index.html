@@ -3,72 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>البث المباشر | شاهد الآن</title>
-
-    <meta property="og:title" content="🔴 بث مباشر الآن - لا يفوتك!">
-    <meta property="og:description" content="انضم إلينا الآن لمتابعة البث المباشر بجودة عالية.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&h=630&auto=format&fit=crop"> 
-    <meta property="og:url" content="https://username.github.io/repo-name/">
-    <meta property="og:type" content="video.other">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="بث مباشر حصري">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&h=630&auto=format&fit=crop">
-
+    <title>مشغل البث المباشر الاحترافي</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0f0f0f;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        .container {
-            padding: 20px;
-            border: 1px solid #333;
-            border-radius: 15px;
-            background: #1a1a1a;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }
-        .live-badge {
-            background-color: #ff0000;
-            padding: 5px 15px;
-            border-radius: 5px;
-            font-weight: bold;
-            text-transform: uppercase;
-            animation: blink 1.5s infinite;
-        }
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0d1117; color: #c9d1d9; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        h2 { color: #58a6ff; margin-bottom: 20px; }
+        .container { width: 100%; max-width: 900px; background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .video-wrapper { position: relative; width: 100%; background: #000; border-radius: 8px; overflow: hidden; aspect-ratio: 16 / 9; }
+        video { width: 100%; height: 100%; }
+        .input-group { margin-top: 25px; display: flex; gap: 10px; flex-wrap: wrap; }
+        input { flex: 1; min-width: 250px; padding: 12px; border-radius: 6px; border: 1px solid #30363d; background: #0d1117; color: white; outline: none; }
+        input:focus { border-color: #58a6ff; }
+        button { padding: 12px 25px; background-color: #238636; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        button:hover { background-color: #2ea043; }
+        .info { margin-top: 15px; font-size: 0.9em; color: #8b949e; line-height: 1.6; text-align: right; width: 100%; }
+        .status { margin-top: 10px; font-weight: bold; }
     </style>
 </head>
 <body>
 
+    <h2>📺 مشغل البث المباشر (عبر الوسيط)</h2>
+
     <div class="container">
-        <div class="live-badge">مباشر LIVE</div>
-        <h1>مرحباً بك في البث المباشر</h1>
-        <p>جاري تحضير البث، اضغط على الزر أدناه للمشاهدة</p>
-        
-        <a href="https://www.youtube.com/YOUR_LIVE_LINK" class="btn">انتقل إلى البث الآن</a>
+        <div class="video-wrapper">
+            <video id="video" controls playsinline></video>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="streamUrl" placeholder="ضع رابط البث (m3u8) هنا...">
+            <button onclick="startStreaming()">تشغيل البث</button>
+        </div>
+
+        <div id="status" class="status"></div>
+
+        <div class="info">
+            <strong>ملاحظة:</strong> هذا المشغل يقوم بتوجيه الرابط تلقائياً عبر الـ Cloudflare Worker الخاص بك لتجاوز حماية الـ Referer والـ CORS.
+        </div>
     </div>
 
+    <script>
+        // 1. ضع رابط الـ Worker الخاص بك هنا (تأكد من وجود / في النهاية)
+        const PROXY_URL = "https://stream-proxy.yourname.workers.dev/"; 
+
+        function startStreaming() {
+            const video = document.getElementById('video');
+            const status = document.getElementById('status');
+            let rawUrl = document.getElementById('streamUrl').value.trim();
+
+            if (!rawUrl) {
+                alert("يرجى إدخال رابط البث أولاً!");
+                return;
+            }
+
+            // بناء الرابط النهائي بدمجه مع الوسيط
+            const finalUrl = PROXY_URL + "?url=" + encodeURIComponent(rawUrl);
+            
+            status.innerText = "⏳ جاري محاولة الاتصال عبر الوسيط...";
+            status.style.color = "#e3b341";
+
+            if (Hls.isSupported()) {
+                const hls = new Hls();
+                hls.loadSource(finalUrl);
+                hls.attachMedia(video);
+                
+                hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                    status.innerText = "✅ تم الاتصال بنجاح! جاري التشغيل...";
+                    status.style.color = "#3fb950";
+                    video.play();
+                });
+
+                hls.on(Hls.Events.ERROR, function (event, data) {
+                    if (data.fatal) {
+                        status.innerText = "❌ فشل التشغيل. تأكد من صحة الرابط أو إعدادات الـ Worker.";
+                        status.style.color = "#f85149";
+                    }
+                });
+            } 
+            else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                // دعم متصفح Safari
+                video.src = finalUrl;
+                video.addEventListener('canplay', function() {
+                    video.play();
+                });
+            }
+        }
+    </script>
 </body>
 </html>
